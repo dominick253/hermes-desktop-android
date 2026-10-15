@@ -7,3 +7,4 @@ hermes-release.keystore
 .keystore_pass
 *.log
 build.log
+*.apk
