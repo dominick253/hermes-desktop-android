@@ -1,0 +1,9 @@
+build/
+app/build/
+.gradle/
+local.properties
+keystore.properties
+hermes-release.keystore
+.keystore_pass
+*.log
+build.log

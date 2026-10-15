@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    The self-hosted dashboard usually runs as plain HTTP on a private network,
+    so cleartext is permitted. Prefer an https:// dashboard address whenever TLS
+    is available; the app accepts one as-is.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

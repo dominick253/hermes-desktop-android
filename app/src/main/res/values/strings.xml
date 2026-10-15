@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hermes</string>
+    <string name="menu_open">Hermes menu</string>
+    <string name="error_offline">Cannot reach the Hermes dashboard.</string>
+    <string name="retry">Retry</string>
+    <string name="change_server">Change server</string>
+</resources>
